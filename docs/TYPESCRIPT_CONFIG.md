@@ -8,10 +8,6 @@ This document explains the fields set in the `tsconfig.json` file.
 
 - `"target"`: Set the JavaScript language version for emitted JavaScript and
   include compatible library declarations.
-- `"experimentalDecorators`: Enable experimental support for TC39 stage 2 draft decorators.
-  Refer to `reflect-metadata` [here](./DEPENDENCIES.md) for details.
-- `"emitDecoratorMetadata`: Emit design-type metadata for
-  decorated declarations in source files.
 
 ### Modules
 
@@ -19,6 +15,7 @@ This document explains the fields set in the `tsconfig.json` file.
 
 ### Emit
 
+- `"declarations"`: Generate `.d.ts` files for every TS or JS files.
 - `"sourceMap"`: Create source map files for emitted JavaScript files.
 - `"outDir"`: Specify an output folder for all emitted files.
 - `"removeComments"`: Disable emitting comments.

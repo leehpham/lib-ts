@@ -2,43 +2,6 @@
 
 ## Directory Structure
 
-```txt
-__tests__
-└── src
-    ├── learning
-    │   ├── lodash
-    │   │   ├── CloneDeep.learning.test.ts
-    │   │   └── IsEqual.learning.test.ts
-    │   └── typedi
-    │       ├── BasicDi.learning.test.ts
-    │       ├── BasicUsage.learning.test.ts
-    │       ├── InjectDecoratorConstructor.learning.test.ts
-    │       ├── InjectDecoratorExplicitTarget.learning.test.ts
-    │       └── InjectDecoratorProperty.learning.test.ts
-    └── unit
-        ├── app
-        │   └── use-cases
-        │       ├── abstrs
-        │       └── impls
-        │           └── todo-item
-        │               └── create
-        │                   ├── InputVldtr.unit.test.ts
-        │                   └── UseCase.unit.test.ts
-        └── infra
-            ├── lib-wrappers
-            │   └── lodash
-            │       ├── LodashFacadeCloneDeep.unit.test.ts
-            │       └── LodashFacadeIsEqual.unit.test.ts
-            └── persistence
-                └── mem
-                    ├── impls
-                    │   ├── MemDb.unit.test.ts
-                    │   └── Table.unit.test.ts
-                    └── repos
-                        └── todo-item
-                            └── TodoItemRepo.unit.test.ts
-```
-
 ## Learning Tests
 
 Following the idea of "keeping framework code distant",
@@ -54,5 +17,3 @@ You are encouraged to write these tests because:
 
 Unit tests are supposed to be fast.
 They are executed repeatedly and completely in memory.
-
-## Integration Tests

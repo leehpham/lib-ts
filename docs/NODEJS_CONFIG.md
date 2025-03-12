@@ -18,6 +18,9 @@ This document explains the fields set in the `package.json` file.
   it's listed in `npm search`.
   Remove this if your package/project is private and/or not published to NPM registry.
 - `"main"`: The entry point to your program.
+- `"types"`: This points to your bundled declaration file.
+- `"files"`: This helps you to **whitelist** the files you want to
+  ship to the npm registry.
 - `"scripts"`: Script commands. See [here](../README.md) for more details.
 - `"keywords"`: This helps people discover your package/project as
   it's listed in `npm search`.

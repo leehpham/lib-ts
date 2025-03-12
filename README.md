@@ -60,9 +60,6 @@ A library boilerplate with TypeScript.
 - `npm run build`: Build the application.
   The output `.js` files will be in the `dist` folder.
 - `npm run build:watch`: Build in watch mode.
-- `npm run start`: Start the application.
-- `npm run start:watch`: Start the application in watch mode.
-  This can be used during development.
 - `npm run lint`: Lint files `src` folder.
   This needs to be updated to also lint test files in `__tests__` folder.
 - `npm run lint:fix`: Fix linting issues for files in `src` folder.

@@ -4,8 +4,6 @@
 
     /* Language and Environment */
     "target": "es2022",
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
 
     /* Modules */
     "module": "commonjs",
@@ -13,6 +11,7 @@
     /* JavaScript Support */
 
     /* Emit */
+    "declaration": true,
     "sourceMap": true,
     "outDir": "./dist/",
     "removeComments": true,

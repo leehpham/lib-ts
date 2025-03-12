@@ -2,18 +2,6 @@
 
 ## Runtime Dependencies
 
-- `lodash`: A popular JavaScript library that provides utility functions for
-  common programming tasks.
-  Developed and maintained by lodash.
-- `reflect-metadata`: Helps perform advanced tasks in decorators by
-  collecting metadata about classes, properties, methods and parameters.
-  Developed and maintained by rbuckton.
-  **Note**: The APIs are no longer being considered for standardization.
-  However this package will continue to support
-  TypeScript's legacy `--experimentalDecorators` option.
-- `typedi`: A dependency injection tool for TypeScript and JavaScript.
-  **Note**: The development of this package was terminated several years ago.
-
 ## Dev Dependencies
 
 - `@eslint/js`: The beginning of separating out
@@ -31,8 +19,6 @@
   migrated from `typescript-eslint`.
   Developed and maintained by eslint-stylistic.
 - `@types/eslint__js`: Type definitions for `@eslint/js`.
-  Developed and maintained by DefinitelyTyped.
-- `@types/lodash`: Type definitions for `lodash`.
   Developed and maintained by DefinitelyTyped.
 - `@types/node`: Type definitions for Node.js.
   Developed and maintained by DefinitelyTypes.
@@ -125,14 +111,6 @@ npm install --save-dev @typescript-eslint/parser
 `npm install --save-dev @types/jest`
 
 `npx ts-jest config:init`
-
-`npm install --save lodash`
-
-`npm install --save-dev @types/lodash`
-
-`npm install typedi`
-
-`npm install reflect-metadata`
 
 `npm install prettier`
 
