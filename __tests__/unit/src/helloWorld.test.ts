@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals";
 
-import { sayGoodbye, sayHello } from "../../../src/HelloWorld";
+import { sayGoodbye, sayHello } from "../../../src/helloWorld";
 
 describe("HelloWorld", () => {
   describe("sayGoodbye", () => {
